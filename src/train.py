@@ -123,7 +123,7 @@ if __name__ == "__main__":
     batch_size = int(sys.argv[1])
     workers = int(sys.argv[2])
     num_classes = 5
-    epochs = 10
+    epochs = 8
     model_name = 'model'
     model_path = "./models"
 
