@@ -10,7 +10,7 @@ from PIL import Image
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
-DATASET_DIR = "./models/model"
+DATASET_DIR = "/Users/khaled/Loda/Codes/smart attendance system/data/all_cropped" # Dataset Path
 
 
 mtcnn = MTCNN(image_size=160, margin=14, device=device)
